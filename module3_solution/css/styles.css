@@ -1,0 +1,44 @@
+.title {
+    margin-bottom: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.text {
+    padding: 10px;
+}
+
+.content-item > div {
+    background-color: #cceecc;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.content-item:last-child {
+    margin-right: 0;
+}
+
+.content-item .title {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.scroll-top {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+
+@media (max-width: 1160px) {
+    .content-item:nth-child(2) {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .col-xs-12 {
+        padding: 0 10%;
+    }
+}
